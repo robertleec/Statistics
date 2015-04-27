@@ -17,7 +17,7 @@ namespace Math {
     size_t maxValueIndex(const vector<double>& values);
     
     template <typename T>
-    map<T, double> distribution(const vector<T>& data) {
+    inline const map<T, double> distribution(const vector<T>& data) {
         
         map<T, double> result;
         
